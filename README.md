@@ -12,8 +12,8 @@ npm install -g http-server
 
 Run this command:
 
-```
-http-serve
+``` 
+http-server
 ```
 
 Navigate to lacalhost on the specified port on your browser.

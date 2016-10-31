@@ -44,5 +44,4 @@
         "currencyConversion.controllers"
     ]);
 
-    //window.app.run();
 })();
