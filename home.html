@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <base href="/"></base>
+    <meta name="description" content="Currency Conversion"></meta>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="application.js"></script>
+</head>
+
+<body ng-app="currencyConversion">
+    <h5>Currency Conversion Application</h5>
+    <form ng-controller="CurrencyCtrl">
+        <p>Select symbol you'd like:</p>
+        <select ng-value="symbol" ng-model="symbol">
+            <option value="AUD">AUD<option/>
+            <option value="BGN">BGN<option/>
+            <option value="CAD">CAD<option/>
+        </select>
+        <button ng-click="convert()">Get USD Rate</button>
+        <p>Conversion Rate in USD</p>
+        <input disabled ng-value="USDValue"></input>
+    </form>
+</body>
+
+</html>
